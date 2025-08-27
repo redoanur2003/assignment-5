@@ -1,0 +1,1 @@
+console.log("welcome from the js file")
