@@ -1,0 +1,125 @@
+/* add font */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+
+.hind-madurai-regular {
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* common classes */
+
+.max-width {
+    max-width: 1920px;
+    margin: 0, auto;
+}
+
+.displayF {
+    display: flex;
+}
+
+/* nav bar */
+.navSection {
+    justify-content: space-between;
+}
+
+.nav-tag {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+
+.logo_img {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-title {
+    color: rgba(0, 103, 71, 1);
+    font-size: 1.2rem;
+    width: 136px;
+    margin-left: 5px;
+    margin-top: -1px;
+    height: 45px;
+}
+
+.sideNav {
+    max-width: 400px;
+    max-height: 50px;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-top: 1.5rem;
+}
+
+.heartLogo {
+    width: 30px;
+    height: 30px;
+}
+
+.heartC {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 12px;
+    height: 24px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.heartS {
+    max-width: 125px;
+    max-height: 30px;
+    background-color: rgba(65, 255, 107, 0.1);
+    border-radius: 50px;
+    padding: 12px;
+    margin-right: 10px;
+}
+
+.coinC {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 12px;
+    height: 24px;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.coinLogo {
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+}
+
+.coinS {
+    max-width: 125px;
+    max-height: 30px;
+    background-color: rgba(65, 255, 107, 0.1);
+    border-radius: 50px;
+    padding: 12px;
+}
+
+.btnS {
+    width: 100px;
+    height: 30px;
+    background-color: rgba(0, 166, 62, 1);
+    border-radius: 50px;
+    padding: 12px;
+    margin-left: 10px;
+}
+
+.copy {
+
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
