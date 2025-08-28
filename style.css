@@ -21,7 +21,6 @@
 .max-width {
     max-width: 1920px;
     margin: 0, auto;
-    background-color: rgba(255, 255, 255, 1);
 }
 
 .displayF {
@@ -31,6 +30,7 @@
 /* nav bar */
 .navSection {
     justify-content: space-between;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .nav-tag {
@@ -161,6 +161,94 @@
     margin-right: -10px;
     margin-left: 250px;
 }
+
+/* main */
+
+.main {
+    background-color: rgba(219, 234, 219, 0.925);
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.hotLine {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.callLine {
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: 56px;
+    margin-top: 50px;
+    max-width: 440px;
+    max-height: 360px;
+    border-radius: 12px;
+    padding: 32px;
+    box-shadow: 200px20px 20px 50px 15px lightgray;
+
+}
+
+.copyButton {
+    border: 2px solid rgba(212, 214, 213, 1);
+    border-radius: 8px;
+    width: 180px;
+    height: 40px;
+}
+
+.callButton {
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(0, 166, 62, 1);
+    width: 180px;
+    height: 40px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 10px;
+}
+
+
+.eIcon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.emerLogo {
+    max-width: 32px;
+    max-height: 32px;
+    background-color: rgba(255, 227, 226, 1);
+    border-radius: 16px;
+}
+
+.enum {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(17, 17, 17, 1);
+}
+
+.eName {
+    font-size: 18px;
+    font-weight: 400px;
+    color: gray;
+}
+
+.eNumber {
+    color: rgba(17, 17, 17, 1);
+    font-weight: bolder;
+    font-size: 40px;
+
+}
+
+.eType {
+    font-size: 18px;
+    font-weight: 400px;
+    text-align: center;
+    max-width: 84px;
+    max-height: 35px;
+    color: rgba(92, 92, 92, 1);
+    background-color: rgba(242, 242, 242, 1);
+    border-radius: 9999px;
+    padding: 16px 6px;
+}
+
 
 /* media query */
 
