@@ -1,5 +1,6 @@
 // console.log("welcome from the js file")
 
+//Call button function work
 let coin = parseInt(document.getElementById("coinCount").innerText);
 
 const btnEmCall = document.getElementById("btnEmCall");
@@ -453,4 +454,61 @@ document.getElementById("clear").addEventListener("click", function () {
     document.getElementById("coinCount").innerText = coin;
     document.getElementById("callInfo").innerHTML = "";
 
+})
+
+//Heart click count
+let totalHcount = 0;
+const heartIcon = document.getElementById("heartIcon");
+heartIcon.addEventListener("click", function () {
+    totalHcount++;
+    // console.log(totalHcount)
+    document.getElementById("heartCount").innerText = totalHcount;
+})
+const hIPo = document.getElementById("hIPo");
+hIPo.addEventListener("click", function () {
+    totalHcount++;
+    document.getElementById("heartCount").innerText = totalHcount;
+    // console.log(totalHcount)
+})
+const hIFi = document.getElementById("hIFi");
+hIFi.addEventListener("click", function () {
+    totalHcount++;
+    document.getElementById("heartCount").innerText = totalHcount;
+    // console.log(totalHcount)
+})
+const hIAm = document.getElementById("hIAm");
+hIAm.addEventListener("click", function () {
+    totalHcount++;
+    document.getElementById("heartCount").innerText = totalHcount;
+    // console.log(totalHcount)
+})
+const hIWC = document.getElementById("hIWC");
+hIWC.addEventListener("click", function () {
+    totalHcount++;
+    document.getElementById("heartCount").innerText = totalHcount;
+    // console.log(totalHcount)
+})
+const hIAnti = document.getElementById("hIAnti");
+hIAnti.addEventListener("click", function () {
+    totalHcount++;
+    document.getElementById("heartCount").innerText = totalHcount;
+    // console.log(totalHcount)
+})
+const hIElc = document.getElementById("hIElc");
+hIElc.addEventListener("click", function () {
+    totalHcount++;
+    document.getElementById("heartCount").innerText = totalHcount;
+    // console.log(totalHcount)
+})
+const hIBrac = document.getElementById("hIBrac");
+hIBrac.addEventListener("click", function () {
+    totalHcount++;
+    document.getElementById("heartCount").innerText = totalHcount;
+    // console.log(totalHcount)
+})
+const hIBR = document.getElementById("hIBR");
+hIBR.addEventListener("click", function () {
+    totalHcount++;
+    document.getElementById("heartCount").innerText = totalHcount;
+    // console.log(totalHcount)
 })

@@ -187,6 +187,16 @@
     margin-right: -8px;
 }
 
+.fa-heart {
+    font-size: 30px;
+}
+
+.fa-copy,
+.fa-clock {
+    font-size: 16px;
+}
+
+
 .hotLine {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
