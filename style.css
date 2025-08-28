@@ -173,15 +173,18 @@
 .hotLine {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
+    max-width: 1250px;
+    max-height: auto;
+    margin-right: 50px;
 }
 
 .callLine {
     background-color: rgba(255, 255, 255, 1);
-    margin-left: 56px;
+    margin-left: 30px;
     margin-top: 50px;
-    max-width: 440px;
-    max-height: 360px;
+    margin-bottom: 40px;
+    max-width: 20rem;
+    max-height: 300px;
     border-radius: 12px;
     padding: 32px;
     box-shadow: 200px20px 20px 50px 15px lightgray;
@@ -249,6 +252,48 @@
     padding: 16px 6px;
 }
 
+/* Hole section */
+.serviceInfo {
+    max-width: 1800px;
+    justify-content: space-between;
+}
+
+/* call history */
+.history {
+    background-color: rgba(255, 255, 255, 1);
+    width: 50rem;
+    max-height: auto;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    padding: 24px;
+    border-radius: 12px;
+
+}
+
+.hisTag {
+    margin-left: 10px;
+}
+
+.clockIc {
+    margin-top: 20px;
+}
+
+.callHistory {
+    justify-content: space-between;
+}
+
+.btn-clear {
+    background-color: rgba(0, 166, 62, 1);
+    padding: 20px;
+    width: 80px;
+    color: rgba(255, 255, 255, 1);
+    align-items: center;
+    border-radius: 50px;
+    border: none;
+    margin-left: 30px;
+
+}
 
 /* media query */
 
@@ -288,6 +333,23 @@
         margin-bottom: 5rem;
         max-width: 576px;
         font-size: x-small;
+    }
+
+    /* Service part */
+
+    .hotLine {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 624px;
+        max-height: auto;
+        margin-right: 4rem;
+    }
+
+    .serviceInfo {
+        max-width: 624px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: -80px;
     }
 
 }
