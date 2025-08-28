@@ -512,3 +512,197 @@ hIBR.addEventListener("click", function () {
     document.getElementById("heartCount").innerText = totalHcount;
     // console.log(totalHcount)
 })
+
+//Copy part
+
+let copyNum = 0;
+document.getElementById("btnEmCopy").addEventListener("mouseenter", function () {
+    document.getElementById("btnEmCopy").style.backgroundColor = "lightgray"
+})
+document.getElementById("btnEmCopy").addEventListener("mouseout", function () {
+    document.getElementById("btnEmCopy").style.backgroundColor = "white"
+})
+
+const btnEmCopy = document.getElementById("btnEmCopy");
+btnEmCopy.addEventListener("click", function () {
+    const emergencyNum = document.getElementById("emergencyNum").innerText;
+    // console.log(emergencyNum);
+    navigator.clipboard.writeText(emergencyNum)
+        .then(() => {
+            alert('This number is coping successfully: ' + emergencyNum);
+            copyNum++;
+            document.getElementById("copyC").innerText = copyNum;
+        })
+        .catch(err => {
+            console.error('Failed to copy number: ', err);
+        });
+})
+
+document.getElementById("btnPoCopy").addEventListener("mouseenter", function () {
+    document.getElementById("btnPoCopy").style.backgroundColor = "lightgray"
+})
+document.getElementById("btnPoCopy").addEventListener("mouseout", function () {
+    document.getElementById("btnPoCopy").style.backgroundColor = "white"
+})
+
+const btnPoCopy = document.getElementById("btnPoCopy");
+btnPoCopy.addEventListener("click", function () {
+    const policeNum = document.getElementById("policeNum").innerText;
+    navigator.clipboard.writeText(policeNum)
+        .then(() => {
+            alert('This number is coping successfully: ' + policeNum);
+            copyNum++;
+            console.log(copyNum)
+            document.getElementById("copyC").innerText = copyNum;
+        })
+        .catch(err => {
+            console.error('Failed to copy number: ', err);
+        });
+})
+
+document.getElementById("btnFiCopy").addEventListener("mouseenter", function () {
+    document.getElementById("btnFiCopy").style.backgroundColor = "lightgray"
+})
+document.getElementById("btnFiCopy").addEventListener("mouseout", function () {
+    document.getElementById("btnFiCopy").style.backgroundColor = "white"
+})
+
+const btnFiCopy = document.getElementById("btnFiCopy");
+btnFiCopy.addEventListener("click", function () {
+    const fireNumber = document.getElementById("fireNumber").innerText;
+    navigator.clipboard.writeText(fireNumber)
+        .then(() => {
+            alert('This number is coping successfully: ' + fireNumber);
+            copyNum++;
+            document.getElementById("copyC").innerText = copyNum;
+        })
+        .catch(err => {
+            console.error('Failed to copy number: ', err);
+        });
+})
+
+document.getElementById("btnAmCopy").addEventListener("mouseenter", function () {
+    document.getElementById("btnAmCopy").style.backgroundColor = "lightgray"
+})
+document.getElementById("btnAmCopy").addEventListener("mouseout", function () {
+    document.getElementById("btnAmCopy").style.backgroundColor = "white"
+})
+
+const btnAmCopy = document.getElementById("btnAmCopy");
+btnAmCopy.addEventListener("click", function () {
+    const ambulanceNum = document.getElementById("ambulanceNum").innerText;
+    navigator.clipboard.writeText(ambulanceNum)
+        .then(() => {
+            alert('This number is coping successfully: ' + ambulanceNum);
+            copyNum++;
+            document.getElementById("copyC").innerText = copyNum;
+        })
+        .catch(err => {
+            console.error('Failed to copy number: ', err);
+        });
+})
+
+document.getElementById("btnWCCopy").addEventListener("mouseenter", function () {
+    document.getElementById("btnWCCopy").style.backgroundColor = "lightgray"
+})
+document.getElementById("btnWCCopy").addEventListener("mouseout", function () {
+    document.getElementById("btnWCCopy").style.backgroundColor = "white"
+})
+
+const btnWCCopy = document.getElementById("btnWCCopy");
+btnWCCopy.addEventListener("click", function () {
+    const wcNumber = document.getElementById("wcNumber").innerText;
+    navigator.clipboard.writeText(wcNumber)
+        .then(() => {
+            alert('This number is coping successfully: ' + wcNumber);
+            copyNum++;
+            document.getElementById("copyC").innerText = copyNum;
+        })
+        .catch(err => {
+            console.error('Failed to copy number: ', err);
+        });
+})
+
+document.getElementById("btnAntiCopy").addEventListener("mouseenter", function () {
+    document.getElementById("btnAntiCopy").style.backgroundColor = "lightgray"
+})
+document.getElementById("btnAntiCopy").addEventListener("mouseout", function () {
+    document.getElementById("btnAntiCopy").style.backgroundColor = "white"
+})
+
+const btnAntiCopy = document.getElementById("btnAntiCopy");
+btnAntiCopy.addEventListener("click", function () {
+    const antiNumber = document.getElementById("antiNumber").innerText;
+    navigator.clipboard.writeText(antiNumber)
+        .then(() => {
+            alert('This number is coping successfully: ' + antiNumber);
+            copyNum++;
+            document.getElementById("copyC").innerText = copyNum;
+        })
+        .catch(err => {
+            console.error('Failed to copy number: ', err);
+        });
+})
+
+document.getElementById("btnElcCopy").addEventListener("mouseenter", function () {
+    document.getElementById("btnElcCopy").style.backgroundColor = "lightgray"
+})
+document.getElementById("btnElcCopy").addEventListener("mouseout", function () {
+    document.getElementById("btnElcCopy").style.backgroundColor = "white"
+})
+
+const btnElcCopy = document.getElementById("btnElcCopy");
+btnElcCopy.addEventListener("click", function () {
+    const elcNumber = document.getElementById("elcNumber").innerText;
+    navigator.clipboard.writeText(elcNumber)
+        .then(() => {
+            alert('This number is coping successfully: ' + elcNumber);
+            copyNum++;
+            document.getElementById("copyC").innerText = copyNum;
+        })
+        .catch(err => {
+            console.error('Failed to copy number: ', err);
+        });
+})
+
+document.getElementById("btnBracCopy").addEventListener("mouseenter", function () {
+    document.getElementById("btnBracCopy").style.backgroundColor = "lightgray"
+})
+document.getElementById("btnBracCopy").addEventListener("mouseout", function () {
+    document.getElementById("btnBracCopy").style.backgroundColor = "white"
+})
+
+const btnBracCopy = document.getElementById("btnBracCopy");
+btnBracCopy.addEventListener("click", function () {
+    const ngoNumber = document.getElementById("ngoNumber").innerText;
+    navigator.clipboard.writeText(ngoNumber)
+        .then(() => {
+            alert('This number is coping successfully: ' + ngoNumber);
+            copyNum++;
+            document.getElementById("copyC").innerText = copyNum;
+        })
+        .catch(err => {
+            console.error('Failed to copy number: ', err);
+        });
+})
+
+document.getElementById("btnBRCopy").addEventListener("mouseenter", function () {
+    document.getElementById("btnBRCopy").style.backgroundColor = "lightgray"
+})
+document.getElementById("btnBRCopy").addEventListener("mouseout", function () {
+    document.getElementById("btnBRCopy").style.backgroundColor = "white"
+})
+
+const btnBRCopy = document.getElementById("btnBRCopy");
+btnBRCopy.addEventListener("click", function () {
+    const brNumber = document.getElementById("brNumber").innerText;
+    navigator.clipboard.writeText(brNumber)
+        .then(() => {
+            alert('This number is coping successfully: ' + brNumber);
+            copyNum++;
+            document.getElementById("copyC").innerText = copyNum;
+        })
+        .catch(err => {
+            console.error('Failed to copy number: ', err);
+        });
+})
