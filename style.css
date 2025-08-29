@@ -177,16 +177,17 @@
 
 /* Hole section */
 .serviceInfo {
-    max-width: 1800px;
+    max-width: 1920px;
+    background-color: rgba(219, 234, 219, 0.925);
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 /* main */
 
 .main {
-    background-color: rgba(219, 234, 219, 0.925);
     max-width: 1920px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .fa-heart {
@@ -388,6 +389,16 @@
     }
 
     /* Service section */
+    .main {
+        max-width: 1920px;
+        width: 100%;
+        background-color: rgba(219, 234, 219, 0.925);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 20px;
+    }
+
     .hotLine {
         grid-template-columns: 1fr;
         width: 100%;
@@ -395,9 +406,10 @@
     }
 
     .callLine {
-        width: 100%;
+        width: 120%;
         max-width: auto;
         margin: 10px auto;
+        margin-left: -40px;
         height: auto;
         padding: 16px;
     }
@@ -405,13 +417,15 @@
     .serviceInfo {
         display: grid;
         grid-template-columns: 1fr;
+
     }
 
     /* History */
     .history {
-        width: 100%;
-        max-width: none;
+        width: 120%;
+        max-width: auto;
         margin: 20px auto;
+        margin-left: -40px;
         padding: 15px;
     }
 
@@ -422,5 +436,4 @@
         max-width: auto;
         margin: 5px 5px;
     }
-
 }
