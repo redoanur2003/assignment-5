@@ -459,16 +459,35 @@ document.getElementById("clear").addEventListener("click", function () {
 //Heart click count
 let totalHcount = 0;
 const heartIcon = document.getElementById("heartIcon");
+document.getElementById("heartIcon").addEventListener("mouseenter", function () {
+    document.getElementById("heartIcon").style.backgroundColor = "red"
+})
+document.getElementById("heartIcon").addEventListener("mouseout", function () {
+    document.getElementById("heartIcon").style.backgroundColor = "white"
+})
 heartIcon.addEventListener("click", function () {
     totalHcount++;
     // console.log(totalHcount)
     document.getElementById("heartCount").innerText = totalHcount;
 })
 const hIPo = document.getElementById("hIPo");
+document.getElementById("hIPo").addEventListener("mouseenter", function () {
+    document.getElementById("hIPo").style.backgroundColor = "red"
+})
+document.getElementById("hIPo").addEventListener("mouseout", function () {
+    document.getElementById("hIPo").style.backgroundColor = "white"
+})
 hIPo.addEventListener("click", function () {
     totalHcount++;
     document.getElementById("heartCount").innerText = totalHcount;
     // console.log(totalHcount)
+})
+
+document.getElementById("hIFi").addEventListener("mouseenter", function () {
+    document.getElementById("hIFi").style.backgroundColor = "red"
+})
+document.getElementById("hIFi").addEventListener("mouseout", function () {
+    document.getElementById("hIFi").style.backgroundColor = "white"
 })
 const hIFi = document.getElementById("hIFi");
 hIFi.addEventListener("click", function () {
@@ -476,11 +495,24 @@ hIFi.addEventListener("click", function () {
     document.getElementById("heartCount").innerText = totalHcount;
     // console.log(totalHcount)
 })
+document.getElementById("hIAm").addEventListener("mouseenter", function () {
+    document.getElementById("hIAm").style.backgroundColor = "red"
+})
+document.getElementById("hIAm").addEventListener("mouseout", function () {
+    document.getElementById("hIAm").style.backgroundColor = "white"
+})
 const hIAm = document.getElementById("hIAm");
 hIAm.addEventListener("click", function () {
     totalHcount++;
     document.getElementById("heartCount").innerText = totalHcount;
     // console.log(totalHcount)
+})
+
+document.getElementById("hIWC").addEventListener("mouseenter", function () {
+    document.getElementById("hIWC").style.backgroundColor = "red"
+})
+document.getElementById("hIWC").addEventListener("mouseout", function () {
+    document.getElementById("hIWC").style.backgroundColor = "white"
 })
 const hIWC = document.getElementById("hIWC");
 hIWC.addEventListener("click", function () {
@@ -488,11 +520,25 @@ hIWC.addEventListener("click", function () {
     document.getElementById("heartCount").innerText = totalHcount;
     // console.log(totalHcount)
 })
+
+document.getElementById("hIAnti").addEventListener("mouseenter", function () {
+    document.getElementById("hIAnti").style.backgroundColor = "red"
+})
+document.getElementById("hIAnti").addEventListener("mouseout", function () {
+    document.getElementById("hIAnti").style.backgroundColor = "white"
+})
 const hIAnti = document.getElementById("hIAnti");
 hIAnti.addEventListener("click", function () {
     totalHcount++;
     document.getElementById("heartCount").innerText = totalHcount;
     // console.log(totalHcount)
+})
+
+document.getElementById("hIElc").addEventListener("mouseenter", function () {
+    document.getElementById("hIElc").style.backgroundColor = "red"
+})
+document.getElementById("hIElc").addEventListener("mouseout", function () {
+    document.getElementById("hIElc").style.backgroundColor = "white"
 })
 const hIElc = document.getElementById("hIElc");
 hIElc.addEventListener("click", function () {
@@ -500,11 +546,25 @@ hIElc.addEventListener("click", function () {
     document.getElementById("heartCount").innerText = totalHcount;
     // console.log(totalHcount)
 })
+
+document.getElementById("hIBrac").addEventListener("mouseenter", function () {
+    document.getElementById("hIBrac").style.backgroundColor = "red"
+})
+document.getElementById("hIBrac").addEventListener("mouseout", function () {
+    document.getElementById("hIBrac").style.backgroundColor = "white"
+})
 const hIBrac = document.getElementById("hIBrac");
 hIBrac.addEventListener("click", function () {
     totalHcount++;
     document.getElementById("heartCount").innerText = totalHcount;
     // console.log(totalHcount)
+})
+
+document.getElementById("hIBR").addEventListener("mouseenter", function () {
+    document.getElementById("hIBR").style.backgroundColor = "red"
+})
+document.getElementById("hIBR").addEventListener("mouseout", function () {
+    document.getElementById("hIBR").style.backgroundColor = "white"
 })
 const hIBR = document.getElementById("hIBR");
 hIBR.addEventListener("click", function () {
